@@ -1,0 +1,77 @@
+||*^$app=com.dragon.read,important
+@@||p*-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p*-novel-sign.byteimg.com/novel-pic/$important,app=com.dragon.read
+@@||security.snssdk.com^$important,app=com.dragon.read
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
+@@||lf-normal-gr-sourcecdn.bytegecko.com^$important,app=com.dragon.read
+@@||reading.snssdk.com^$important,app=com.dragon.read
+@@||lf-fe.fqnovelstatic.com^$important,app=com.dragon.read
+@@||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
+@@||tnc*-*.zijieapi.com^$important,app=com.dragon.read
+@@||p*-reading-sign.fqnovelpic.com^$important,app=com.dragon.read
+@@||fqnovelvod.com^$important,app=com.dragon.read
+@@||api5-normal-sinfonlineb.fqnovel.com^$important,app=com.dragon.read
+@@||lf-sourcecdn-tos.bytegecko.com^$important,app=com.dragon.read
+
+||*static*^
+||*sealaly*^
+||*toutiao*^
+||*bsgslb*^
+||*misc*^
+||*douyin*^
+||*ecombd*^
+||*byte*^
+||*0kkkkkt*^
+||*cjjd14*^
+||*ietheivaicai*^
+||*stream*^
+||*siomxity*^
+/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
+||mssdk.zijieapi.com^
+||lf3-reading.fqnovelpic.com^
+||*applog*.*.*^
+||feedback-c.zijieapi.com^
+||ads*-normal-*.zijieapi.com^
+||*pstatp*^
+||dig.bdurl.net^
+||*qtaeixd*^
+||*erer*^
+||*ttweb*^
+||*sinfonlinec*^$important
+||mssdk.volces.com^
+||mon.snssdk.com^
+||toblog.ctobsnssdk.com^
+||mon.zijieapi.com^
+||dig.zjurl.cn^
+||gecko*.zijieapi.com^
+||polaris.zijieapi.com^
+||snssdk.com^
+
+! 我的消息显示
+@@||reading.snssdk.com^$important
+@@||lf-fe.fqnovelstatic.com^$important
+
+
+! 完整排行榜
+@@||lf-normal-gr-sourcecdn.bytegecko.com^$important
+
+! 首页误拦截
+! ||api*-sinfnormal.fqnovel.com^$important
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important
+
+! 小说评论区屏蔽
+! ||tnc*-*.zijieapi.com^$important
+
+! 抖音账号登录
+@@||security.snssdk.com^$important
+
+! 金币福利页面
+@@||lf-sourcecdn-tos.bytegecko.com^$important
+! 礼物打赏页面
+! 无
+! 漫画修复
+@@||p3-novel1-sign.byteimg.com^
+@@||p6-novel1-sign.byteimg.com^
+@@||p9-novel1-sign.byteimg.com^
+! 出版读物插图修复
+@@||p*-novel-sign.byteimg.com/novel-pic/$important
