@@ -56,7 +56,7 @@
 @@||lf-normal-gr-sourcecdn.bytegecko.com^$important
 
 ! 首页误拦截
-! ||api*-sinfnormal.fqnovel.com^$important
+@@||api*-sinfnormal.fqnovel.com^$important
 @@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important
 
 ! 小说评论区屏蔽
