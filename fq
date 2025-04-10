@@ -253,7 +253,7 @@ IP-CIDR,180.96.2.114/32,no-resolve
 @@||lf-normal-gr-sourcecdn.bytegecko.com^$important,app=com.dragon.read
 
 ! 首页误拦截
-||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
+@@||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
 @@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
 
 ! 小说评论区屏蔽
