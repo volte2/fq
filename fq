@@ -303,3 +303,6 @@ IP-CIDR,180.96.2.114/32,no-resolve
 ||lf6-ad-union-sdk.pglstatp-toutiao.com^
 ||p1-lm.adkwai.com^
 ||open.e.kuaishou.com^
+
+!虎牙广告
+||metric.huya.com^
