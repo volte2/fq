@@ -245,19 +245,34 @@ IP-CIDR,180.96.2.114/32,no-resolve
 ||gecko*.zijieapi.com^
 ||snssdk.com^
 ! 我的消息显示
+@@||reading.snssdk.com^$important,app=com.dragon.read
+@@||lf-fe.fqnovelstatic.com^$important,app=com.dragon.read
+
+
 ! 完整排行榜
+@@||lf-normal-gr-sourcecdn.bytegecko.com^$important,app=com.dragon.read
+
 ! 首页误拦截
+! ||api*-sinfnormal.fqnovel.com^$important,app=com.dragon.read
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important,app=com.dragon.read
+
 ! 小说评论区屏蔽
-! ||tnc*-*.zijieapi.com^$important
+! ||tnc*-*.zijieapi.com^$important,app=com.dragon.read
+
 ! 抖音账号登录
+@@||security.snssdk.com^$important,app=com.dragon.read
+
 ! 金币福利页面
+@@||lf-sourcecdn-tos.bytegecko.com^$important,app=com.dragon.read
 ! 礼物打赏页面
 ! 无
 ! 漫画修复
-@@||p3-novel1-sign.byteimg.com^
-@@||p6-novel1-sign.byteimg.com^
-@@||p9-novel1-sign.byteimg.com^
+@@||p3-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p6-novel1-sign.byteimg.com^$app=com.dragon.read,important
+@@||p9-novel1-sign.byteimg.com^$app=com.dragon.read,important
 ! 出版读物插图修复
+@@||p*-novel-sign.byteimg.com/novel-pic/$important,app=com.dragon.read
+
 ||audid.umeng.com^
 ||ccs.umeng.com^
 ||pro.bugly.qq.com^
