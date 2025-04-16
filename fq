@@ -1,79 +1,90 @@
-||*static*^$important
-||*sealaly*^$important
-||*toutiao*^$important
-||*bsgslb*^$important
-||*misc*^$important
-||*douyin*^$important
-||*ecombd*^$important
-||*byte*^$important
-||*0kkkkkt*^$important
-||*cjjd14*^$important
-||*ietheivaicai*^$important
-||*stream*^$important
-||*siomxity*^$important
+||*static*$important
+||*sealaly*$important
+||*toutiao*$important
+||*bsgslb*$important
+||*misc*$important
+||*douyin*$important
+||*ecombd*$important
+||*byte*$important
+||*0kkkkkt*$important
+||*cjjd14*$important
+||*ietheivaicai*$important
+||*stream*$important
+||*siomxity*$important
 /[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-||mssdk.zijieapi.com^$important
-||lf3-reading.fqnovelpic.com^$important
-||*applog*.*.*^$important
-||feedback-c.zijieapi.com^$important
-||ads*-normal-*.zijieapi.com^$important
-||*pstatp*^$important
-||dig.bdurl.net^$important
-||*qtaeixd*^$important
-||*erer*^$important
-||*ttweb*^$important
-||*sinfonlinec*^$important
-||mssdk.volces.com^$important
-||mon.snssdk.com^$important
-||toblog.ctobsnssdk.com^$important
-||mon.zijieapi.com^$important
-||dig.zjurl.cn^$important
-||gecko*.zijieapi.com^$important
-||polaris.zijieapi.com^$important
-||snssdk.com^$important
+||mssdk.zijieapi.com$important
+||lf3-reading.fqnovelpic.com$important
+||*applog*.*.*$important
+||feedback-c.zijieapi.com$important
+||ads*-normal-*.zijieapi.com$important
+||*pstatp*$important
+||dig.bdurl.net$important
+||*qtaeixd*$important
+||*erer*$important
+||*ttweb*$important
+||*sinfonlinec*$important
+||mssdk.volces.com$important
+||mon.snssdk.com$important
+||toblog.ctobsnssdk.com$important
+||mon.zijieapi.com$important
+||dig.zjurl.cn$important
+||gecko*.zijieapi.com$important
+||polaris.zijieapi.com$important
+||snssdk.com$important
 
 ! 我的消息显示
-@@||reading.snssdk.com^$important
-@@||lf-fe.fqnovelstatic.com^$important
+@@||reading.snssdk.com$important
+@@||lf-fe.fqnovelstatic.com$important
 
 
 ! 完整排行榜
-@@||lf-normal-gr-sourcecdn.bytegecko.com^$important
+@@||lf-normal-gr-sourcecdn.bytegecko.com$important
 
 ! 首页误拦截
-@@||api*-sinfnormal.fqnovel.com^$important
+@@||api*-sinfnormal.fqnovel.com$important
 @@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important
 @@||api5-normal-sinfonline*.fqnovel.com/reading/bookapi/$important
 ! 小说评论区屏蔽
-! @@||tnc*-*.zijieapi.com^$important
+! @@||tnc*-*.zijieapi.com$important
 
 ! 抖音账号登录
-@@||security.snssdk.com^$important
+@@||security.snssdk.com$important
 
 ! 金币福利页面
-@@||lf-sourcecdn-tos.bytegecko.com^$important
+@@||lf-sourcecdn-tos.bytegecko.com$important
 ! 礼物打赏页面
 ! 无
 ! 漫画修复
-@@||p3-novel1-sign.byteimg.com^$important
-@@||p6-novel1-sign.byteimg.com^$important
-@@||p9-novel1-sign.byteimg.com^$important
+@@||p3-novel1-sign.byteimg.com$important
+@@||p6-novel1-sign.byteimg.com$important
+@@||p9-novel1-sign.byteimg.com$important
 ! 出版读物插图修复
 @@||p*-novel-sign.byteimg.com/novel-pic/$important
 
-! 虎牙广告
-||metric.huya.com^
+@@||p*-novel1-sign.byteimg.com^$important
+@@||p*-novel-sign.byteimg.com/novel-pic/$important
+@@||security.snssdk.com^$important
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/$important
+@@||lf-normal-gr-sourcecdn.bytegecko.com^$important
+@@||reading.snssdk.com^$important
+@@||lf-fe.fqnovelstatic.com^$important
+@@||api*-sinfnormal.fqnovel.com^$important
+@@||tnc*-*.zijieapi.com^$important
+@@||p*-reading-sign.fqnovelpic.com^$important
+@@||fqnovelvod.com^$important
+@@||api*-normal-sinfonline*.fqnovel.com^$important
+@@||lf-sourcecdn-tos.bytegecko.com^$important
 
 ! 酷安
-||ctobsnssdk.com^
-||pangolin.snssdk.com^
-||pangolin-sdk-toutiao.com^
-||pangolin-sdk-toutiao-b.com^
-||pglstatp-toutiao.com^
-||dm.toutiao.com^
-||ulogs.umeng.com^
-||aaid.umeng.com^
-||tnc*.zijieapi.com^
+||ctobsnssdk.com
+||pangolin.snssdk.com
+||pangolin-sdk-toutiao.com
+||pangolin-sdk-toutiao-b.com
+||pglstatp-toutiao.com
+||dm.toutiao.com
+||ulogs.umeng.com
+||aaid.umeng.com
+||tnc*.zijieapi.com
 ! 帖子详情好物推荐
 ||api2.coolapk.com/v6/feed/detail$replace=/"include_goods_ids":\[.*?]\,"include_goods":\[.*?]\,/ /
 ! 帖子详情赞助内容
@@ -96,11 +107,11 @@
 /ad-sign.*/
 /fqnovelvod.*/
 /mgsdk-sign.*/
-||dig.bdurl.net^$important
-||activity-ag.awemeughun.com^$important
-||msync-im1-vip6-std.easemob.com^$important
-||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
-||sf3-ttcdn-tos.pstatp.com^$important
-||sf3-fe-tos.pglstatp-toutiao.com^$important
-||skdisplay.jd.com^$important
-||settings.ttwebview.com^$important
+||dig.bdurl.net$important
+||activity-ag.awemeughun.com$important
+||msync-im1-vip6-std.easemob.com$important
+||apd-pcdnwxlogin.teg.tencent-cloud.net$important
+||sf3-ttcdn-tos.pstatp.com$important
+||sf3-fe-tos.pglstatp-toutiao.com$important
+||skdisplay.jd.com$important
+||settings.ttwebview.com$important
