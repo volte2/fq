@@ -1,42 +1,44 @@
-127.0.0.1 abtest3-misc-hl.zijieapi.com
-127.0.0.1 ads3-normal-hl.zijieapi.com
-127.0.0.1 ads5-normal-hl.zijieapi.com
-127.0.0.1 api-access.pangolin-sdk-toutiao.com
-127.0.0.1 api-access.pangolin-sdk-toutiao1.com
-127.0.0.1 api3-normal-hl.fqnovel.com
-127.0.0.1 api5-normal-hl.fqnovel.com
-127.0.0.1 bsync3-normal-hl.zijieapi.com
-127.0.0.1 dig.bdurl.net
-127.0.0.1 effect.snssdk.com
-127.0.0.1 feedback-c.zijieapi.com
-127.0.0.1 frontier100-toutiao-hl.fqnovel.com
-127.0.0.1 gecko5-hl.zijieapi.com
-127.0.0.1 i-hl.snssdk.com
-127.0.0.1 ichannel.snssdk.com
-127.0.0.1 is-hl.snssdk.com
-127.0.0.1 is.snssdk.com
-127.0.0.1 log3-applog-hl.fqnovel.com
-127.0.0.1 mon.zijieapi.com
-127.0.0.1 mssdk.volces.com
-127.0.0.1 mssdk3-normal-lf.zijieapi.com
-127.0.0.1 p3-novel.byteimg.com
-127.0.0.1 p6-novel.byteimg.com
-127.0.0.1 pitaya.bytedance.com
-127.0.0.1 polaris3-normal-hl.zijieapi.com
-127.0.0.1 reading-hl.snssdk.com
-127.0.0.1 rtlog3-applog-hl.fqnovel.com
-127.0.0.1 rtlog5-applog-hl.fqnovel.com
-127.0.0.1 settings.ttwebview.com
-127.0.0.1 sf3-fe-tos.pglstatp-toutiao.com
-127.0.0.1 timon.zijieapi.com
-127.0.0.1 tnc0-aliec2.zijieapi.com
-127.0.0.1 tnc0-bjlgy.zijieapi.com
-127.0.0.1 tnc3-aliec2.bytedance.com
-127.0.0.1 tnc3-aliec2.zijieapi.com
-127.0.0.1 tnc3-alisc1.bytedance.com
-127.0.0.1 tnc3-alisc1.zijieapi.com
-127.0.0.1 tnc3-bjlgy.bytedance.com
-127.0.0.1 tnc3-bjlgy.zijieapi.com
-127.0.0.1 tobapplog.ctobsnssdk.com
-127.0.0.1 toblog.ctobsnssdk.com
-127.0.0.1 vcs.zijieapi.com
+||abtest3-misc-hl.zijieapi.com
+||ads3-normal-hl.zijieapi.com
+||ads5-normal-hl.zijieapi.com
+||api-access.pangolin-sdk-toutiao.com
+||api-access.pangolin-sdk-toutiao1.com
+||api3-normal-hl.fqnovel.com
+||api5-normal-hl.fqnovel.com
+||bsync3-normal-hl.zijieapi.com
+||api5-normal-sinfonlineb.fqnovel.com
+||dig.bdurl.net
+||dig.zjurl.cn
+||effect.snssdk.com
+||feedback-c.zijieapi.com
+||frontier100-toutiao-hl.fqnovel.com
+||gecko5-hl.zijieapi.com
+||i-hl.snssdk.com
+||ichannel.snssdk.com
+||is-hl.snssdk.com
+||is.snssdk.com
+||log3-applog-hl.fqnovel.com
+||mon.zijieapi.com
+||mssdk.volces.com
+||mssdk3-normal-lf.zijieapi.com
+||p3-novel.byteimg.com
+||p6-novel.byteimg.com
+||pitaya.bytedance.com
+||polaris3-normal-hl.zijieapi.com
+||reading-hl.snssdk.com
+||rtlog3-applog-hl.fqnovel.com
+||rtlog5-applog-hl.fqnovel.com
+||settings.ttwebview.com
+||sf3-fe-tos.pglstatp-toutiao.com
+||timon.zijieapi.com
+||tnc0-aliec2.zijieapi.com
+||tnc0-bjlgy.zijieapi.com
+||tnc3-aliec2.bytedance.com
+||tnc3-aliec2.zijieapi.com
+||tnc3-alisc1.bytedance.com
+||tnc3-alisc1.zijieapi.com
+||tnc3-bjlgy.bytedance.com
+||tnc3-bjlgy.zijieapi.com
+||tobapplog.ctobsnssdk.com
+||toblog.ctobsnssdk.com
+||vcs.zijieapi.com
