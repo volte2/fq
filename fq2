@@ -98,6 +98,84 @@
 ||abtest3-misc-hl.zijieapi.com^
 ||dm.pstatp.com
 
+! 我的消息显示
+@@||reading.snssdk.com
+@@||lf-fe.fqnovelstatic.com
+
+
+! 完整排行榜
+@@||lf-normal-gr-sourcecdn.bytegecko.com
+
+! 首页误拦截
+@@||api*-sinfnormal.fqnovel.com
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/
+@@||api5-normal-sinfonline*.fqnovel.com/reading/bookapi/
+! 小说评论区屏蔽
+! @@||tnc*-*.zijieapi.com
+
+! 抖音账号登录
+@@||security.snssdk.com
+
+! 金币福利页面
+@@||lf-sourcecdn-tos.bytegecko.com
+! 礼物打赏页面
+! 无
+! 漫画修复
+@@||p3-novel1-sign.byteimg.com
+@@||p6-novel1-sign.byteimg.com
+@@||p9-novel1-sign.byteimg.com
+! 出版读物插图修复
+@@||p*-novel-sign.byteimg.com/novel-pic/
+
+@@||p*-novel1-sign.byteimg.com
+@@||p*-novel-sign.byteimg.com/novel-pic/
+@@||security.snssdk.com
+@@||api5-normal-sinfonlinec.fqnovel.com/reading/bookapi/
+@@||lf-normal-gr-sourcecdn.bytegecko.com
+@@||reading.snssdk.com
+@@||lf-fe.fqnovelstatic.com
+@@||api*-sinfnormal.fqnovel.com
+@@||tnc*-*.zijieapi.com
+@@||p*-reading-sign.fqnovelpic.com
+@@||fqnovelvod.com
+@@||api*-normal-sinfonline*.fqnovel.com
+@@||lf-sourcecdn-tos.bytegecko.com
+
+! 酷安
+||ctobsnssdk.com
+||pangolin.snssdk.com
+||pangolin-sdk-toutiao.com
+||pangolin-sdk-toutiao-b.com
+||pglstatp-toutiao.com
+||dm.toutiao.com
+||ulogs.umeng.com
+||aaid.umeng.com
+||tnc*.zijieapi.com
+! 帖子详情好物推荐
+||api2.coolapk.com/v6/feed/detail$replace=/"include_goods_ids":\[.*?]\,"include_goods":\[.*?]\,/ /
+! 帖子详情赞助内容
+||api2.coolapk.com/v6/feed/detail$replace=/\,"detailSponsorCard":{.*}/}}/
+! 发现页去除酷品
+||api2.coolapk.com/v6/main/init$replace=/{"id":1170.*?}\,/ /
+! 应用游戏页去除推广视频
+||api2.coolapk.com/v6/page/dataList$replace=/{"entityType":"card"\,"entityTemplate":"apkImageCard".*?\\u0022}"}\,/ /
+! 去除首页还有什么值得买推广
+||api2.coolapk.com/v6/main/indexV8$replace=/{"entityType":"card"\,"entityTemplate":"listCard".*?}"}\,/ /
+||coolapk.com/v6/page/dataList?$replace=/extra_entities//
+||coolapk.com/v6/feed/detail?$replace=/extra_entities//
+||coolapk.com/v6/main/indexV?$replace=/extra_entities//
+||coolapk.com/v6/feed/detail?$replace=/extra_title//
+||coolapk.com/v6/feed/detail?$replace=/include_goods//
+!去除"什么值得买"
+||coolapk.com/v6/main/indexV8?$replace=/\{"entityType":"card"\,"entityTemplate":"listCard".*?\}\,\{"id/{"id/
+!去除热搜
+||coolapk.com/v6/main/init?$replace=/\{"data":\[\{"entityType":"card"\,"entityTemplate":"textCard"\,"title":"\\u70ed\\u95e8\\u641c\\u7d22".*?\}\,\{"entityType":"card"\,"entityTemplate":"configCard"/\{"data":[\{"entityType":"card"\,"entityTemplate":"configCard"/
+||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
+!去除随机应用推荐
+||coolapk.com/v6/main/indexV8?$replace=/\,\{.*?"entityType": "card"\,"entityTemplate":"apkImageCard".*?\}\,\{"id"/,{"id"/
+!去除评论区下某广告
+||coolapk.com/v6/feed/detail?$replace=/detailSponsorCard//
+
 127.0.0.1 a1.alibabausercontent.com
 127.0.0.1 abtest-ch.snssdk.com
 127.0.0.1 abtest3-misc-hl.zijieapi.com
